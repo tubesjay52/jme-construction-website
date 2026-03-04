@@ -173,7 +173,6 @@ footer h3 {
 }
 
 /* ================= Responsive Design ================= */
-
 @media (max-width: 768px) {
 
     .menu-btn {
@@ -187,8 +186,15 @@ footer h3 {
         padding: 100px 15px 60px;
     }
 
+    /* ✅ FIXED SIDEBAR FOR MOBILE */
     .sidebar {
+        width: 30%;              /* Sidebar takes 30% of screen */
         padding-top: 120px;
+    }
+
+    .sidebar a {
+        font-size: 14px;         /* Smaller text */
+        padding: 12px 15px;      /* Smaller spacing */
     }
 
     .about-div {
