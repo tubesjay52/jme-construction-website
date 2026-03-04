@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JM&E Construction Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="menu-btn" onclick="openMenu()">
+    <img src="logo3.png" alt="Menu Logo" class="menu-logo">
+</button>
+
+<div id="sidebar" class="sidebar">
+    <a href="index.html">Home</a>
+    <a href="#pageAboutUs" onclick="closeMenu()">About Us</a>
+    <a href="#missionVision" onclick="closeMenu()">Mission & Vision</a>
+    <a href="#pageSpecialty" onclick="closeMenu()">Specialty</a>
+    <a href="#developer" onclick="closeMenu()">Web Developer</a>
+</div>
+
+<header id="home">
+    <h1>JM&E Construction Services</h1>
+    <p>Free Consultation</p>
+</header>
+
+<section id="pageAboutUs">
+    <h2>About Us</h2>
+    <div class="gallery">
+        <p>
+            <strong>JM&E Construction Services</strong> was established in 2021, initially offering architectural design services for residential homes and structural design solutions for small- to medium-rise buildings.
+            In 2023, the company expanded its services to include the construction of new residential houses and major interior renovations.
+            We are committed to delivering quality workmanship and innovative design solutions. As we continue to grow, we remain determined to explore new opportunities that challenge our skills, allowing us to further improve and expand our expertise in the years to come.
+        </p>
+    </div>
+</section>
+
+<section id="missionVision">
+    <h2>Vision</h2>
+
+    <div class="gallery">
+        <p>At JM&E Construction Services, we aim to be more than just a construction company. We are a dedicated team committed to contributing to community growth and development. Through quality workmanship and innovative solutions, we help turn our clients’ dreams into reality.
+        </p>
+    </div>
+    
+</section>
+
+<section id="justMission">
+    <h2>MISSION</h2>
+    <div class="gallery">
+        <p>Our mission is to provide our clients with the expertise, resources, and support needed to complete their projects safely, on time, within budget, and in accordance with the highest quality standards.
+        If you’d like, I can also make a shorter version for website display or a stronger, more corporate-style version for company profiles and proposals.
+        </p>
+    </div>
+</section>
+
+<section id="pageSpecialty">
+    <h2>Specialty</h2>
+    <div class="gallery">
+        <p>
+            <ul>
+                <li>We undertake building construction, refurbishment projects, and civil works.</li>
+                <li>We provide professional and reliable construction services tailored to our clients’ needs.</li>
+                <li>We take pride in delivering quality projects within agreed timelines.</li>
+                <li>Through the dedication of our trusted team, we have achieved consistent and sustainable growth.</li>
+                <li>We focus on delivering high-quality workmanship while building strong and lasting relationships with our clients, suppliers, and subcontractors.</li>
+            </ul>
+        </p>
+    </div>
+</section>
+
+<footer id="footer">
+    <h3>Contact Information</h3>
+    <p>Name: <strong>Jay L. Ilustrisimo</strong></p>
+    <p>Phone Number: <strong>0977 376 0343 / 0969 046 7364</strong></p>
+    <p>Email: <strong>jmeconstruction30@gmail.com</strong></p>
+    <p>Address: <strong>Sitio Graje, BRGY. Antipolo, Medellin, Cebu</strong></p>
+    <br>
+
+    <div id="developer">
+        <h3>Web Developer</h3>
+        <p>Jay Tubes</p>
+        <p>Email: tubesjay52@gmail.com</p>
+    </div>
+</footer>
+
+<script>
+    function openMenu() {
+        document.getElementById("sidebar").style.width = "25%";
+    }
+
+    function closeMenu() {
+        document.getElementById("sidebar").style.width = "0";
+    }
+</script>
+
+</body>
+</html>
