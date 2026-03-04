@@ -188,7 +188,6 @@ footer h3 {
 
     /* ✅ FIXED SIDEBAR FOR MOBILE */
     .sidebar {
-        width: 30%;              /* Sidebar takes 30% of screen */
         padding-top: 120px;
     }
 
@@ -216,3 +215,4 @@ footer h3 {
     }
 
 }
+
